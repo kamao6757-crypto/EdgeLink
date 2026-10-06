@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "EdgeLink · 浏览器代理",
+  "version": "0.1.3",
+  "description": "独立本机 Mihomo 内核，URL 订阅导入、节点切换、规则分流与出口地区检测。",
+  "minimum_chrome_version": "120",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApBMMVo0Hf/gr1MwS9s3wGo6scoLn2k+llAioJNRArmsLxxFS9a/aJEsXPUZBbtRqwML1hR+6LmJ6+nSRSA/aoT0YgYPRX/RWFn35fXgKB5h2P+HEaau6KHZKOf5OzAwrRuGU7XRbLkzvUOjneuiELVelu2lSdAk5cGhZ4B45HMGTpOHtRnRVgOT+f4KP739iZa5E7LgrPYXJW5CDMgZyXP4YydVRdfJ0CqNmqt9cNddYeWe1xpNtcZNhogFB78nBycIXbMBtbV883x+m8ebXoQa6A6g9/7kv2VCINh17lrn5eEDg8xDtuLSUBE3BwnRFuyIST/p9uPoeCsVTypKYhQIDAQAB",
+  "permissions": [
+    "proxy",
+    "storage",
+    "alarms",
+    "nativeMessaging",
+    "declarativeNetRequestWithHostAccess"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "EdgeLink",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_page": "dashboard.html",
+  "incognito": "not_allowed",
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none';"
+  }
+}

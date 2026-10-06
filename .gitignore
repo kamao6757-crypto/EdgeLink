@@ -1,0 +1,9 @@
+node_modules/
+native/data/
+output/
+.impeccable/
+*.zip
+dist/
+native/com.edgelink.mihomo.json
+native/registration-backup.json
+native/EdgeLink.Host.next.exe

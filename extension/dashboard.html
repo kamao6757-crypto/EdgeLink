@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>EdgeLink · 浏览器代理</title>
+  <link rel="icon" href="icons/icon32.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳到主要内容</a>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#home"><img src="icons/icon48.png" width="34" height="34" alt=""><span>EdgeLink<small>浏览器代理</small></span></a>
+      <nav id="navigation" aria-label="功能导航"></nav>
+      <div class="sidebar-bottom"><span id="side-status" class="status-line"><i class="status-dot"></i>代理已关闭</span><span class="version">独立内核 · v0.1.3</span></div>
+    </aside>
+    <main id="content" class="main" tabindex="-1">
+      <header class="page-header"><div><h1 id="page-title">首页</h1><p id="page-description">管理你的浏览器网络连接</p></div><div class="header-tools"><span class="scope-label" id="scope-label"></span><button class="icon-button" id="refresh-page" title="刷新状态" aria-label="刷新状态"></button></div></header>
+      <div id="page" aria-live="polite"><div class="loading">正在读取扩展状态…</div></div>
+      <footer class="page-footer"><span>EdgeLink</span><span>你的配置留在本机</span></footer>
+    </main>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="dashboard.js" type="module"></script>
+</body>
+</html>

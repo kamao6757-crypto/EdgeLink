@@ -1,0 +1,7 @@
+* text=auto
+*.dat binary
+*.mmdb binary
+*.exe binary
+*.png binary
+*.gz binary
+*.zip binary

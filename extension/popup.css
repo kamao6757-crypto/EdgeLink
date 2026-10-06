@@ -1,0 +1,15 @@
+.popup-body { width: 350px; min-height: 380px; padding: 20px; }
+.popup-header { display: flex; align-items: center; gap: 10px; margin-bottom: 23px; }
+.popup-header img { border-radius: 8px; }
+.popup-header strong { font-weight: 600; font-size: 18px; flex: 1; }
+.popup-status { display: flex; align-items: center; justify-content: space-between; padding: 20px; background: var(--surface); border-radius: 12px; margin-bottom: 17px; }
+.popup-status h1 { font-size: 20px; margin: 8px 0 0; }
+.popup-status .power-button { width: 57px; height: 57px; }
+.popup-status .power-button .icon { width: 24px; height: 24px; }
+.popup-footer { margin-top: 23px; display: grid; gap: 12px; text-align: center; }
+.popup-footer .button { width: 100%; }
+.popup-footer span { color: var(--muted); font-size: 10px; }
+.popup-body .toast { left: 50%; bottom: 12px; width: calc(100% - 30px); font-size: 11px; padding: 11px; }
+.popup-body .segmented { width: 100%; justify-content: space-between; }
+.popup-body .segmented button { flex: 1; }
+.popup-error { font-size: 12px; color: var(--red); }
