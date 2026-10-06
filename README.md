@@ -1,6 +1,6 @@
 # EdgeLink · Edge 浏览器代理
 
-这是一个 Manifest V3 Edge 扩展，附带独立的 Windows Mihomo 内核，**不需要安装或运行 Clash Verge**。八个页面对应参考图：首页、代理、订阅、连接、规则、日志、测试、设置。
+这是一个 Manifest V3 Edge 扩展，附带独立的 Windows Mihomo 内核
 
 ## 安装与使用
 
